@@ -1,0 +1,221 @@
+/* General */
+/* Header */
+/* Main Content */
+/* Column Left */
+/* Colum Right */
+/* Ingredients List */
+/* Footer */
+
+
+body{
+	font-family: "Roboto", sans-serif;
+	line-height: 1.7;
+	color: #212121;
+	font-size:1.2vw;
+
+
+
+
+
+}
+ header img {
+     height: 1.5rem;
+}
+#ingredient{
+	padding-top:2vw;
+	padding-bottom:1vw; 
+	padding-right:1vw;
+	padding-left:2vw;
+	text-align:left;
+	font-size:1.3;
+	width:20vw;
+	float:right;
+
+}
+#ingredient2{
+	position:relative;
+	padding-top:2vw;
+	padding-bottom:3vw; 
+	padding-right:1vw;
+	padding-left:3vw;
+	text-align:left;
+	font-size:1.3;
+	width:30vw;
+	float:left;
+}
+
+#prep { 
+	text-align: left; 
+	width: 60vw; 
+	float: right; 
+	font-size: 1.3vw;
+
+ }
+ 
+h2{
+	padding-top: 1vw;
+	padding-bottom:3vw; 
+	padding-right:7vw;
+	padding-left:6vw;
+	text-align: left; 
+	width: 40vw;
+	height:-0vw; 
+	float: left; 
+	font-size: 2vw;
+	text-align: left;
+	margin-top: 1vw;
+	margin-right: 9vw;
+	
+}
+h3{
+	text-align:left;
+}
+
+header{
+	padding:1.5rem 5%;
+	background-color:#B24000;
+	overflow: hidden;
+}
+.logo h1{
+	font-family:"Roboto", sans-serif;
+	font-size: 2vw;
+	color:white;
+	text-transform: uppercase;
+}
+.menu a {
+	text-align: right;
+	font-family:"Roboto", sans-serif;
+	font-size: 1.5vw;
+	color:white;
+	text-transform: uppercase;
+	
+
+
+}
+main{
+	padding:2vw 5%;
+	overflow: hidden;
+
+}
+@media screen and (min-width: 20em){
+	main h1{
+		border:solid black;
+		padding-top: 2vw;
+		padding-bottom:3vw; 
+		padding-right:4vw;
+		padding-left:6vw;
+		border-color:#B24000;
+		font-family:"Montserrat", serif;
+		font-size:2.8vw;
+		text-transform: uppercase;
+		text-align: center;
+		color:#B24000;
+		width: 40vw; /* how wide you want your image to be */ 
+		height:8vw;
+		float: right;
+		margin-top: 1vw;
+		margin-right: 9vw;
+
+
+
+
+
+}
+
+
+
+
+.col-left img{
+	width:95%;
+}
+
+@media screen and (min-width: 20em){
+	.col-left{
+		width: 30%;
+		float: left;
+	}
+}
+
+@media screen and (min-width: 20em){
+	.col-right {
+ 		width: 65%;
+	 	float: right;
+	}
+}
+
+
+.ingredients ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+
+}
+
+.ingredients li {
+	padding: .5rem 0;
+	border-top: 1px dotted #bdbdbd;
+}
+
+.ingredients{
+	overflow:hidden;
+	margin-top:1vw;
+}
+
+@media screen and (min-width: 40em){
+	.logo {
+ 		width: 50%;
+	 	float: left;
+}
+	.menu {
+ 		width: 1%;
+	 	float: right;
+	 	color:white;
+	}
+}
+
+footer{
+	padding: 1.5rem 5%;
+	background-color:#bdbdbd;
+}
+footer p{
+	margin:0;
+	color: #757575;
+	text-align: right;
+
+}
+footer a {
+	text-decoration: none;
+	font-family: "Montserrat", serif;
+	color:#ffffff;
+	background-color: #B24000;
+	text-transform: uppercase;
+
+
+}
+
+h4{
+	font-family:"Roboto", sans-serif;
+	color:#B24000;
+	text-transform:uppercase;
+	font-size:1vw;
+
+}
+.inner{
+	text-align: left;
+	font-family:, "Montserrat",serif;
+	font-size: 5vw;
+	color:gray;
+	text-transform: uppercase;
+	font-size:1vw;
+	margin-top:1vw;	
+	
+}
+
+.inner h4 {
+	margin-bottom: 1vw;
+}
+
+.inner p {
+	margin-top:0;
+}
